@@ -1,0 +1,15 @@
+
+num1 = input ("Number:")
+num2 = input ("Number:")
+num3 = input ("Number:")
+num4 = input ("Number:")
+num5 = input ("Number:")
+
+x = max (num1, num2, num3, num4, num5)
+y = min (num1, num2, num3, num4, num5)
+first_count= (num1)
+first_count2= (num5)
+print("The first number is" , first_count)
+print("The last number is", first_count2)
+print ("Largest number is " + x)
+print ("Smallest number is " + y)
